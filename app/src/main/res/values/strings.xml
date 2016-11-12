@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NavigationDrawer1</string>
+
+    <string name="action_search">Поиск (in resources)</string>
+
+    <string-array name="screen_array">
+        <item>Вкладка 1</item>
+        <item>Вкладка 2</item>
+        <item>Вкладка 3</item>
+    </string-array>
+
+    <string name="drawer_open">Открыть navigation drawer</string>
+    <string name="drawer_close">Закрыть navigation drawer</string>
+
+    <string name="screen_one">Экран №1</string>
+    <string name="screen_two">Экран №2</string>
+    <string name="screen_three">Экран №3</string>
+</resources>
