@@ -20,5 +20,35 @@
         android:text="@string/screen_three"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+    <Button
+        android:id="@+id/butGetText"
+        android:layout_below="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Прочитать данные" />
+    <TextView
+        android:id="@+id/tvGetMessage"
+        android:layout_below="@+id/butGetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="поле для  GPS фрагмент" />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_below="@+id/tvGetMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="поле для  Edit TEXT" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_below="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
 
 </RelativeLayout>
